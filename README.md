@@ -1,9 +1,5 @@
 # Gradient Descent — From Scratch to Adaptive
 
-> A hands-on walkthrough of optimization algorithms, implemented in pure NumPy, scikit-learn, PyTorch, and TensorFlow.
-
-![demo](GD_Complete_Zoo.gif)
-
 ---
 
 ## What's Inside
@@ -150,28 +146,6 @@ Each method is implemented in **NumPy · scikit-learn · PyTorch · TensorFlow**
 
 ---
 
-## Quick Start
-
-```bash
-git clone https://github.com/your-username/gradient-descent-zoo
-cd gradient-descent-zoo
-pip install numpy pandas matplotlib scikit-learn torch tensorflow
-jupyter notebook
-```
-
----
-
-## Optimizer Cheat Sheet
-
-```
-Vanilla GD   →  simple, slow
-SGD          →  noisy, scalable
-Momentum     →  fast, overshoots
-NAG          →  fast, corrected
-AdaGrad      →  sparse data, stalls
-RMSProp      →  non-stationary
-Adam         →  best all-around ✓
-```
 ## Results
 <p align="center">
 <img src="./Images/GD_Complete_Zoo.gif" width="700" />
